@@ -12,8 +12,8 @@ function App() {
     <>
     <header>
       <nav>
-      <Link to="/Home">Home</Link>
-      <Link to="/Order">Order</Link>
+      <Link to="/Home">Anasayfa</Link>
+      <Link to="/Order">Sipariş Oluştur</Link>
       <Link to="/Success">Success</Link>
       </nav>
     </header>

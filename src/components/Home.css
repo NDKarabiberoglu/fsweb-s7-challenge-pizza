@@ -1,0 +1,7 @@
+.home-container {
+    background-image: url('../assets/home-banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Gerekirse ek stiller ekleyebilirsiniz */
+}
