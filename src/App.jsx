@@ -29,6 +29,7 @@ function App() {
         Click on the Workintech or Pizza logos to learn more
       </p>
     </>
+    
   )
 }
 
