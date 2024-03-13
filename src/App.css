@@ -1,42 +1,282 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+/* MainPage css */
+.main {
+    height: 100vh;
+    background-image: url('../Assets/mile1-assets/home-banner.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .logo {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 3rem;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  
+  .mainP {
+    color: white;
+    font-size: 3rem;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
+  
+  /* Success css */
+  
+  .AdvContainer {
+    background-color: #eee9e2;
+  }
+  
+  /* ++ADV MAIN PAGE CSS */
+  /* header */
+  .AdvMain {
+    background-image: url('../Assets/mile1-assets/home-banner.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 15rem;
+  }
+  .headBot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    background-color: white;
+  }
+  
+  /* body */
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 7%;
+    color: white;
+    gap: 1rem;
+  }
+  .leftCard {
+    background-image: url('./mile2-aseets/cta/kart-1.png');
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    border-radius: 10px;
+  }
+  .rightCard {
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+  }
+  .rightTop {
+    background-image: url('./mile2-aseets/cta/kart-2.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+  .rightBot {
+    background-image: url('./mile2-aseets/cta/kart-3.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: black;
+  }
+  /* body 2 */
+  .cards2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+  }
+  .bodyBot {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .bodyBot span {
+    border-radius: 20px;
+    background-color: white;
+  }
+  .darkicon {
+    background-color: #292929;
+    color: white;
+    border-radius: 20px;
+  }
+  .bodyBot img {
+    border-radius: 50px;
+  
+    background-color: white;
+  }
+  .products {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .productCard {
+    background-color: white;
+  }
+  .productDis {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  
+  /* Foother */
+  .AdvFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #292929;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logoF {
+    width: 10rem;
+  }
+  .F1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    padding: 2rem;
+  }
+  .F1 span {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .F2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 2rem;
+  }
+  .F3 {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    color: white;
+    padding: 2rem;
+  }
+  .F3 span {
+    display: flex;
+  
+    margin-top: 1rem;
+  }
+  .F3 span img {
+    margin-right: 1rem;
+  }
+  .F4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #292929;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-top: 0.1rem;
+  }
+  
+  .suc {
+    height: 100vh;
+    background-color: #ce2829;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logoSuc {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    color: white;
+    font-size: 3rem;
+  }
+  .sucText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  .sucText legend {
+    padding-bottom: 4rem;
+  }
+  /* font */
+  .satisfy-regular {
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #fdc913;
+    font-size: 2rem;
+  }
+  .satisfy-regular {
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #fdc913;
+    font-size: 2rem;
+  }
+  .satisfy-regular2 {
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ce2829;
+    font-size: 2rem;
+  }
+  .barlow-thin {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    font-size: 2.5rem;
+  }
+  
+  @media (max-width: 1100px) {
+    img {
+      max-width: 40%;
+    }
+    .headBot {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  
+    .leftCard {
+      width: 40%;
+    }
+    .rightCard {
+      width: 40%;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .AdvFooter {
+      width: 100%;
+      font-size: 10px;
+    }
+    .F1 {
+      padding-left: 0;
+    }
+    .bodyBot {
+      gap: 1rem;
+    }
+    .F3 span {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+    }
+  
+    .F4 {
+      width: 100%;
+    }
+    .suc {
+      height: 100vh;
+      font-size: 11px;
+      padding-left: 1%;
+    }
+  }

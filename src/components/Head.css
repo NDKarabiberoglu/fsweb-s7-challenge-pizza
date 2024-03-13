@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #ce2829;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 400px;
+    height: auto;
+  }
+  .headerLink {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    color: white;
+    gap: 2rem;
+  }
+  

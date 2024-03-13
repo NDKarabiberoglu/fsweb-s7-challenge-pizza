@@ -1,0 +1,67 @@
+.orderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 40%;
+    padding-right: 40%;
+  }
+  .hamur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .formCard {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 1rem;
+  }
+  .dinamik {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dinamik h2 {
+    justify-content: flex-start;
+    padding-bottom: 3rem;
+  }
+  .dinamik nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 8rem;
+    margin-top: 1rem;
+  }
+  .Top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 1rem;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .checkbox-row {
+    flex: 0 0 30%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .formCard {
+    padding-bottom: 10%;
+  }
+  .piecesBtn {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.1rem;
+    padding-bottom: 12rem;
+    align-items: center;
+  }
+  
